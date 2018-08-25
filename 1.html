@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+ <head>
+  <title>생활코딩 강의 요점정리 </title>
+  <meta charset="utf-8">
+   </head>
+  <body>
+  <h1><strong><u>WEB1 - HTML & Internet</u></strong></h1>
+  <p>
+<h2>HTML [Hypertext Markup Language]</h2>
+</p><p>
+본 수업 채택 에디터-  github.com에서 만든 Atom(아톰)<br>
+<a href="https://atom.io/" target="_blank" title="아톰 홈페이지">다운로드</a>
+</p>
+<p style="margin-top:10px;">
+폴더생성-
+아톰에서 폴더 불러오기
+불러온 폴더에 오른쪽 클릭- 뉴 파일 - 파일명.html
+</p>
+<p style="margin-top:45px;">
+<h3><태그모음></h3></p>
+<xmp>
+☆이 웹페이지가 HTML로서 만들어졌다는 것을 표현하기 위해서  문서의 시작에 아래와 같은 코드를 추가한다.
+<!doctype html>   <-근데 꼭 안써도 된다고..
+
+☆<html> </html> - 해당 페이지 태그 전체를 감쌈.. <!doctype html> 뻬고
+
+☆본문을 설명하는 태그는 <head> 태그를 사용합니다.
+☆사이트제목/ <title> </title>
+☆영어가 아닌 문자가 깨질 경우- 이 웹페이지는UTF-8로 만들어졌기 때문에
+UTF-8로 열어라 명령/ <meta charset="utf-8">
+☆</head> 로 다시 감쌈
+
+☆본문은 <body> 태그로
+☆제목(heading)/ <h1>~<h6> (숫자클수록 크기 작아짐) </h1>로 감싸줄 것
+
+목록구분(unordered list)/ <ul></ul>
+숫자매겨지는 목록구분(ordered list)/ <ol></ol>
+목차(list)/ <li> </li>    <-ul(ol)이랑 li 같이 써야해..
+
+강조하기/ <strong>과 </strong>
+밑줄(underline)/ <u>와 </u>
+줄바꿈(A forced line-break)/ <br> <-얘는 안닫아도 됨 ( img, input, br, hr, meta )
+단락(paragraph)/ <p> </p> <-하나의 단락 그룹핑.. css이용해 줄바꿈보다 자유로운 디자인 변경가능
+<p style="margin-top:45px;">  <-p 태그의 위쪽에 45px 만큼의 여백(margin)이 생깁니다.
+글자크기/ <span style="font-size:22px"></span>
+
+이미지(image) 소스(source)/ <img src="이미지주소&파일명+확장자" width="100%">
+(△해당 웹페이지파일과 같은 위치에 파일을 둘 것)
+(width="n%"혹은 숫자 로 화면에 차지할 사이즈 조정가능. 안할거면 빼도 ㅇㅋ)
+(width="n%"혹은 숫자 heigh="숫자" 도 되나? 너비 높이?)
+
+
+링크걸기
+닻(anchor) <a>
+HyperText Reference <href>
+예시 - <a href="링크걸 주소" target="_blank" title="툴팁으로 보일 내용">누를내용</a>
+target="_blank"는 새창으로 페이지 열기
+#내가 만든 웹페이지-페이지간 이동은 위 링크걸기에서 링크걸 주소말고 파일명(1.html 등..)을 넣기.
+
+체크박스만들기
+<input type="checkbox">
+
+&lt; (less than) = <
+&gt; (greater than) = >
+</xmp>
+
+
+&lt;xmp&gt; &lt;/xmp&gt; 이걸로 태그<>를 문자로만 인식
+
+
+<p>
+내 실패사례 정리
+1. 포토샵 psd레이어와 달리 저장시 폴더단위로 페이지가 모두 함께 저장되지않음.
+<br>생성한 html 페이지 개별로 일일이 저장해야함
+(미저장 페이지는 상단 파일명 옆에 파란동그라미가 뜬다)
+<br>2. 깃허브 호스팅후 주소에 "/파일명.html" 붙여야 페이지가 뜨는 듯..
+</xmp>
+  </p>
+
+<p>크래딧
+<br><iframe width="560" height="315" src="https://www.youtube.com/embed/CU-j2cUUxko" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</p>
+<p style="margin-top:100px;">
+<a href="0index.html"  title="돌아가자..">목차로</a>
+</p>
+<p style="margin-top:100px;">
+</p>
+  </body>
+</html>
